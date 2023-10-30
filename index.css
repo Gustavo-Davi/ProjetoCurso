@@ -26,6 +26,7 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -128,4 +129,11 @@ ul li a:hover {
 }
 #social-links a:hover {
   background: var(--highlight-color);
+}
+
+/*mida queries*/
+@media (min-width: 700px) {
+  :root {
+    --br-url: url(./assents/bg-desktop-light.jpg);
+  }
 }
