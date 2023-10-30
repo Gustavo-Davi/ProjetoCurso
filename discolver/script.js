@@ -26,6 +26,6 @@ function toggleMode() {
   } else {
     // Muda para o modo claro
     html.classList.add("light")
-    img.setAttribute("src", "/assents/avatar-light.png") // Altere o caminho conforme necessário
+    img.setAttribute("src", "/assents/avatar.png") // Altere o caminho conforme necessário
   }
 }
